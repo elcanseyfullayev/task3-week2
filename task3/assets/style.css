@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(244, 244, 233);
+}
+/* Whole card box */
+.card {
+    border: 1px solid rgb(189, 189, 189);
+    height: 432px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    position: relative;
+    cursor: pointer;
+}
+/* Date Box */
+.date { 
+    background-color: rgb(34, 140, 170);
+    height: 7%;
+    width: 30%;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* About Box */
+.about {
+    border: 2px solid rgb(47, 47, 47);
+    background-color: rgb(47, 47, 47);
+    height: 14%;
+    width: 100.3%;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    font-weight: bold;
+    font-size: 25px;
+}
+/* Both arrows */
+.icons {
+    position: absolute;
+    color: white;
+    font-size: 90px;
+    z-index: 1;
+}
+/* Left arrow */
+.icons .fa-angle-left {
+    position: absolute;
+    left: 15px;
+    top: 150px;
+    transition: 500ms;
+}
+.icons .fa-angle-left:hover{
+    text-shadow: 2px 4px 7px rgba(0,0,0,0.76);
+}
+/* Right arrow */
+.icons .fa-angle-right {
+    position: absolute;
+    left: 550px;
+    top: 150px;
+    transition: 500ms;
+}
+.icons .fa-angle-right:hover {
+    text-shadow: 2px 4px 7px rgba(0,0,0,0.76);
+}
+/* Viewer Count */
+.view {
+    margin-left: 30px;
+}
+/* All texts */
+.text {
+    margin-left: 10px;
+    margin-top: 5px;
+}
